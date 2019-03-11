@@ -1863,7 +1863,7 @@ a.button,
 }
 
 body {
-	background: #000000 url(style/images/backgroundTile.png) repeat;
+	background: #000000 url(style/images/backgroundTile.webp) repeat;
 	margin:0px;
 	padding:0px;
 	height:100%;
@@ -1874,9 +1874,17 @@ html {
 	margin:0px;
 }
 #developersBlissBackground {
-	background:top url(style/images/background.png) no-repeat;
+	background:top url(style/images/background.webp) no-repeat;
 	padding:0px;
 	margin:0px;
 	padding-bottom:25px;
 	min-height:100%;
+}
+
+.no-webp #developersBlissBackground {
+	background:top url(style/images/background.png) no-repeat;
+}
+
+.no-webp body {
+	background: #000000 url(style/images/backgroundTile.png) repeat;
 }
