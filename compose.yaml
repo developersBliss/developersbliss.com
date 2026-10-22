@@ -1,0 +1,27 @@
+name: developersbliss
+services:
+  web:
+    build:
+      context: ${DEVELOPERSBLISS_BUILD_CONTEXT:-.}
+      args:
+        CADDY_IMAGE: ${CADDY_IMAGE:?Set the approved Caddy image digest}
+    restart: unless-stopped
+    user: '65534:65534'
+    mem_limit: 32m
+    pids_limit: 40
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs: ['/tmp:size=8m,mode=1777']
+    environment: {XDG_CONFIG_HOME: /tmp/config, XDG_DATA_HOME: /tmp/data}
+    networks:
+      frontend: {aliases: [developersbliss-web]}
+    healthcheck:
+      test: [CMD, wget, -q, --spider, http://127.0.0.1:8080/]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+networks:
+  frontend:
+    external: true
+    name: apps-developersbliss-frontend

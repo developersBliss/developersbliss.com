@@ -1,0 +1,10 @@
+{
+    admin off
+    auto_https off
+}
+:8080 {
+    root * /srv/site
+    @private path /.git* /.env* /.ht* /docker/* /Dockerfile /README* /LICENSE* /compose*.yaml /DOCKER.md /AGENTS.md
+    respond @private 404
+    file_server
+}

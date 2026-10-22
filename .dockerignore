@@ -1,0 +1,11 @@
+.git
+.env*
+*.key
+*.pem
+docker/
+compose*.yaml
+DOCKER.md
+README*
+.gitattributes
+.dockerignore
+.gitignore
