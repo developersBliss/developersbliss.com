@@ -7,13 +7,13 @@ services:
         CADDY_IMAGE: ${CADDY_IMAGE:?Set the approved Caddy image digest}
     restart: unless-stopped
     user: '65534:65534'
-    mem_limit: 32m
+    mem_limit: 64m
     pids_limit: 40
     read_only: true
     cap_drop: [ALL]
     security_opt: [no-new-privileges:true]
     tmpfs: ['/tmp:size=8m,mode=1777']
-    environment: {XDG_CONFIG_HOME: /tmp/config, XDG_DATA_HOME: /tmp/data}
+    environment: {XDG_CONFIG_HOME: /tmp/config, XDG_DATA_HOME: /tmp/data, GOMEMLIMIT: 48MiB}
     networks:
       frontend: {aliases: [developersbliss-web]}
     healthcheck:
