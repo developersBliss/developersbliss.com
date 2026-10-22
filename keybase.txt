@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/tyrannicaltaco
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://developersbliss.com
+  * I am tyrannicaltaco (https://keybase.io/tyrannicaltaco) on keybase.
+  * I have a public key with fingerprint 580E BDB3 F9DD 57EC B0CB  108E F371 B57D CA6E D1AB
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d3b71e97ccdd09a0771418193842a03a2b893cb475f45569ef68b60c347e98c30a",
+      "fingerprint": "580ebdb3f9dd57ecb0cb108ef371b57dca6ed1ab",
+      "host": "keybase.io",
+      "key_id": "f371b57dca6ed1ab",
+      "kid": "010136fb1d0c9dc3498f3b9bc68744bd405706983792d1beef066e41166bc6a60f540a",
+      "uid": "94872d9c0a043e20450ae4972f0bd019",
+      "username": "tyrannicaltaco"
+    },
+    "service": {
+      "hostname": "developersbliss.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1758304952,
+  "expire_in": 157680000,
+  "prev": "e0ebd55f438d90cfb5d02d48d57031f7dba23b2a6cc6bdacf29ce782dcbb3606",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.17
+Comment: https://keybase.io/crypto
+
+yMN6AnicbZJtUBVVGMcvXgIvFxxixkHUJtpocPKKZ993iQTfQyUSKiQ12LPnLHe9
+l93r7oIgYTljYTGThnGnQDGCQoEyoginMmHUMGSiYcZxGGlMS3uBwCTDEmsvo986
+X86cc/7P7/yfl1MxTkdU2I3tn1Z+o33XFtbf816JwztQ111BQB2VE6kVhA/PbNiP
+sGkV+FREpBKApACiIU9ikZdlhIAoAZ4nGVIgRVpgKAnQEgUFkZYhw7MKw7KciBVO
+gByQaYbHoiDTQCI8hKJqRdgIGKpm2VhWABgiSCsiQiyPZQhkSAIBKzRPQpZHssRh
+RErQDvTqZijCNgclE6eoun1nHwpm7P2P/p5vQNKcAkkEZBHZVkRBoaEIZU7gGQYi
+BrA84ESB5kUKkRBjBXAcZkiS42yNxAGFZWZ8l8zgREbgKSTKQAIMjSnAsEDCjMhT
+CoAIkGJIaGJDk4qxrbbKDUnTVFnyW5KsE5Uewn4rVWUcKm8on7s6hEuxXw9gw4R+
+1TRTZL3YBgUM3dJl3W8LvJYVMFNDAKs8EIrYgWHBXVYBVDVkF9WOKLUJqq4RqaSt
+lC01BCd5VqABI7KUh8BlAdXABWpIwfKcAOwV+geX2kgc6gRrt44WkAhkBbIIUIgR
+7L4AmlR4BCWKhpTEyTIHkSQrlChjXqCQDCHNAY4IZbdd0202afuUimymqRZpklVi
+YKKyt2dLuCMsyhFx36zQtDmiXLH3ZvCRtbGOK+vdaXPcQV9jW0ts2rark1cf/eSP
+lt5jNVb/eNfPWx6c7bu9t3XzkrCFwSXPhruNhqJVzgwdMmtHFm84XXOpYeRa3K5d
+W6kD+3ZfPvN+OIyMnKZXJHZ+X1Z1eKA9p/OBOfNvZ8X0kpkDGS7R9VfVRG7OT798
++APfWMu/Ea/e2Zldv7Z5dxbTv/7QdWPriTePRgfJvL5t/vr4quGwuevGcOFnAcfY
+xsz60opzbUtaT25sWnVTJdrRytyRg8OJBwofro5oM4ylZpr4ZcZ0e9LRr2+5Coen
+DpcNdQ6N/xad0B15q+mtuuJARVDvVZ9aKW13hw81BBMv/Ji5nHqocXDkYm11RNfJ
+RVXLWjrZ6Fw6P52b3nZoVT4+vholpbrjV17898/Xui6vt17XC2cP+5xe82hcR3bS
+whfiRj/aP7rnTt+QbzJmYuqZK1Ob7k9LHO08P3j6aXzC0FDtkcWJMY99m7L64LG5
+000rXkoe7V2kOS+Yg7eZvojm5HULilu+yl/R0Zf3Qab58s2dk7VnfNee3+NpdVXJ
+jX93N3my3vYum2iNTD976UXSM+e5NVTG9V/9a/qB84sOz+89A49vns5K2DSPJZev
+caX/k92zY775sVY95CrnK5fGO8c3PFl36mzNvnfnvepl+zLfISL3N5+rLz6f031x
+1ysTNw4cCR4PS/jcMSvenZc8a8FY3hP/ASAUwJo=
+=YmQE
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tyrannicaltaco
+
+==================================================================
+
